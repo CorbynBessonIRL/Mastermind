@@ -1,0 +1,170 @@
+--- Sample run 1 (cheater mode ON for testing) ---
+
+===============================================
+Mastermind
+===============================================
+
+Instructions:
+- Choose number of digits (2-10).
+- All digits in the secret are unique.
+- Enter guesses without spaces (e.g., 5023).
+- You get hints after 3 and 6 wrong guesses.
+- You have at most 12 guesses.
+
+Turn cheater mode ON? (Y/N): Y
+How many digits (2-10)? 4
+(Cheater mode) Secret: [4, 9, 5, 2]
+Enter guess #1: 9462
+Correct place: 1
+Wrong place: 2
+Enter guess #2: 4952
+Correct place: 4
+Wrong place: 0
+You guessed it in 2 guesses!
+Play another game? (Y/N): N
+You played 1 game(s). Average guesses: 2.00
+
+
+
+--- Sample run 2 (cheater mode OFF, demonstrate hints & limit) ---
+
+===============================================
+Mastermind
+===============================================
+
+Instructions:
+- Choose number of digits (2-10).
+- All digits in the secret are unique.
+- Enter guesses without spaces (e.g., 5023).
+- You get hints after 3 and 6 wrong guesses.
+- You have at most 12 guesses.
+
+Mastermind
+===============================================
+Mastermind
+===============================================
+
+Instructions:
+- Choose number of digits (2-10).
+- All digits in the secret are unique.
+- Enter guesses without spaces (e.g., 5023).
+- You get hints after 3 and 6 wrong guesses.
+- You have at most 12 guesses.
+
+===============================================
+
+Instructions:
+- Choose number of digits (2-10).
+- All digits in the secret are unique.
+- Enter guesses without spaces (e.g., 5023).
+- You get hints after 3 and 6 wrong guesses.
+- You have at most 12 guesses.
+
+Turn cheater mode ON? (Y/N): N
+How many digits (2-10)? 3
+Enter guess #1: 123
+===============================================
+
+Instructions:
+- Choose number of digits (2-10).
+- All digits in the secret are unique.
+- Enter guesses without spaces (e.g., 5023).
+- You get hints after 3 and 6 wrong guesses.
+- You have at most 12 guesses.
+
+Turn cheater mode ON? (Y/N): N
+How many digits (2-10)? 3
+Enter guess #1: 123
+Instructions:
+- Choose number of digits (2-10).
+- All digits in the secret are unique.
+- Enter guesses without spaces (e.g., 5023).
+- You get hints after 3 and 6 wrong guesses.
+- You have at most 12 guesses.
+
+Turn cheater mode ON? (Y/N): N
+How many digits (2-10)? 3
+Enter guess #1: 123
+- All digits in the secret are unique.
+- Enter guesses without spaces (e.g., 5023).
+- You get hints after 3 and 6 wrong guesses.
+- You have at most 12 guesses.
+
+Turn cheater mode ON? (Y/N): N
+How many digits (2-10)? 3
+Enter guess #1: 123
+Correct place: 0
+Wrong place: 0
+Turn cheater mode ON? (Y/N): N
+How many digits (2-10)? 3
+Enter guess #1: 123
+Correct place: 0
+Wrong place: 0
+Enter guess #2: 456
+Correct place: 0
+Wrong place: 1
+Enter guess #3: 564
+Correct place: 0
+Wrong place: 1
+HINT: Checksum = 21
+Enter guess #4: 645
+Correct place: 1
+Wrong place: 0
+Enter guess #5: 678
+Correct place: 1
+Wrong place: 0
+Enter guess #6: 690
+Correct place: 0
+Wrong place: 1
+HINT: Digit #3 is 5
+Enter guess #7: 905
+Correct place: 2
+Wrong place: 0
+Enter guess #8: 105
+Correct place: 1
+Wrong place: 0
+Enter guess #9: 925
+Correct place: 2
+Wrong place: 0
+Enter guess #10: 935
+Correct place: 2
+Wrong place: 0
+Enter guess #11: 945
+Correct place: 2
+Wrong place: 0
+Enter guess #12: 965
+Correct place: 2
+Wrong place: 0
+Out of guesses! Secret was:
+[9, 7, 5]
+Play another game? (Y/N): N
+You played 1 game(s). Average guesses: 12.00
+
+--- Sample run 3 (cheater mode ON, quite and replay) ---
+
+===============================================
+Mastermind
+===============================================
+
+Instructions:
+- Choose number of digits (2-10).
+- All digits in the secret are unique.
+- Enter guesses without spaces (e.g., 5023).
+- You get hints after 3 and 6 wrong guesses.
+- You have at most 12 guesses.
+
+Turn cheater mode ON? (Y/N): Y
+How many digits (2-10)? 6
+(Cheater mode) Secret: [4, 6, 3, 5, 0, 7]
+Enter guess #1: quit
+You gave up.
+Secret was: [4, 6, 3, 5, 0, 7]
+Play another game? (Y/N): Y
+How many digits (2-10)? 10
+(Cheater mode) Secret: [9, 5, 3, 0, 4, 7, 6, 1, 8, 2]
+Enter guess #1: 9530476182
+Correct place: 10
+Wrong place: 0
+You guessed it in 1 guesses!
+Play another game? (Y/N): N
+You played 2 game(s). Average guesses: 6.50
